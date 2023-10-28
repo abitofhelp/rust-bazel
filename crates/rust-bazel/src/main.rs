@@ -1,4 +1,4 @@
-use calculator::add;
+use mycalculator::add;
 
 fn main() {
     let left = 2;

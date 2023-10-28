@@ -2,7 +2,7 @@
 resolver = "2"
 members = [
     "crates/rust-bazel",
-    "crates/calculator"
+    "crates/mycalculator"
 ]
 
 [workspace.package]

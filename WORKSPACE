@@ -28,7 +28,7 @@ crates_repository(
     lockfile = "//:cargo-bazel-lock.json",
     manifests = [
         "//:Cargo.toml",
-        "//:crates/calculator/Cargo.toml",
+        "//:crates/mycalculator/Cargo.toml",
         "//:crates/rust-bazel/Cargo.toml",
     ],
 )

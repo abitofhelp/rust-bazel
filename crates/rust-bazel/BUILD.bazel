@@ -8,7 +8,7 @@ rust_binary(
     ]),
     aliases = aliases(),
     deps = all_crate_deps() + [
-        "//crates/calculator",
+        "//crates/mycalculator",
 #        ":build",
     ],
     proc_macro_deps = all_crate_deps(

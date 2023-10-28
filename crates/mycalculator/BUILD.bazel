@@ -2,7 +2,7 @@ load("@crate_index//:defs.bzl", "aliases", "all_crate_deps")
 load("@rules_rust//rust:defs.bzl", "rust_library")
 
 rust_library(
-    name = "calculator",
+    name = "mycalculator",
     srcs = glob([
         "src/**/*.rs",
     ]),
@@ -19,7 +19,7 @@ rust_library(
 # Declares a Rust test target with the given name.
 load("@rules_rust//rust:defs.bzl", "rust_test")
 rust_test(
-    name = "calculator_test",
+    name = "mycalculator_test",
 
     # Specifies the source file for the test.
     srcs = ["src/lib.rs"],
@@ -27,7 +27,7 @@ rust_test(
     # Specifies dependencies for the test.
     deps = [
         # Depend on the library we just declared.
-        ":calculator",
+        ":mycalculator",
     ],
 
     # Specifies the Rust edition to use for this test.

@@ -6,7 +6,7 @@ baz_build_all:
 	@bazel build //...
 
 baz_clean:
-	@bazel clean --expunge
+	@bazel clean --expunge --async
 
 baz_run:
 	@bazel run //crates/rust-bazel:rust-bazel
@@ -15,7 +15,7 @@ baz_sync_from_cargo:
 	@CARGO_BAZEL_REPIN=1 bazel sync --only=crate_index
 
 baz_test_calculator:
-	@bazel test //crates/calculator:calculator_test
+	@bazel test //crates/mycalculator:mycalculator_test
 
 cratelist:
 	@cargo package --list
