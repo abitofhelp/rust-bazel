@@ -9,7 +9,7 @@ name = "rust-bazel"
 readme.workspace = true
 repository.workspace = true
 rust-version.workspace = true
-version = "0.1.0"
+version = "0.2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -19,4 +19,4 @@ name = "rust-bazel"
 path = "src/main.rs"
 
 [dependencies]
-mycalculator = { path = "../mycalculator", version = "0.1.0" }
+mycalculator = { path = "../mycalculator", version = "0.2.0" }
