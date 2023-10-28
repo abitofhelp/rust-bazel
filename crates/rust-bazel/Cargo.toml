@@ -19,4 +19,4 @@ name = "rust-bazel"
 path = "src/main.rs"
 
 [dependencies]
-calculator = { path = "../calculator", version = "0.1.0"}
+calculator = { path = "../calculator", version = "0.1.0" }

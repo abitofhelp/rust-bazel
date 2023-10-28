@@ -1,6 +1,7 @@
 # rust-bazel
 
-This is a simple Rust application and library that can be built using Bazel as well as Cargo.
+This repository contains a simple Rust application, library, and unit test that can be built using Bazel as well as
+Cargo.
 
 
 
