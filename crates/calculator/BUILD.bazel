@@ -13,3 +13,23 @@ rust_library(
     ),
     visibility = ["//visibility:public"],
 )
+
+
+
+# Declares a Rust test target with the given name.
+load("@rules_rust//rust:defs.bzl", "rust_test")
+rust_test(
+    name = "calculator_test",
+
+    # Specifies the source file for the test.
+    srcs = ["src/lib.rs"],
+
+    # Specifies dependencies for the test.
+    deps = [
+        # Depend on the library we just declared.
+        ":calculator",
+    ],
+
+    # Specifies the Rust edition to use for this test.
+    edition = "2021"
+)

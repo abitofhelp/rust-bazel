@@ -1,5 +1,5 @@
 {
-  "checksum": "944c41f3932934e96503f32066e996733f6bd52bd914cb69ed9ac42284d9324a",
+  "checksum": "89142ec659ba2ea1719d89237fc5461609b847e0cf2675b0166d8f8b78bc6503",
   "crates": {
     "calculator 0.1.0": {
       "name": "calculator",
@@ -24,7 +24,7 @@
         "edition": "2021",
         "version": "0.1.0"
       },
-      "license": "MIT OR Apache-2.0"
+      "license": null
     },
     "rust-bazel 0.1.0": {
       "name": "rust-bazel",
@@ -39,7 +39,7 @@
         "edition": "2021",
         "version": "0.1.0"
       },
-      "license": "MIT OR Apache-2.0"
+      "license": null
     }
   },
   "binary_crates": [],

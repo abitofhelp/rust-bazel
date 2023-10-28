@@ -1,17 +1,22 @@
 [package]
-name = "rust-bazel"
-version = "0.1.0"
 authors.workspace = true
+description.workspace = true
 edition.workspace = true
-license.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+license-file.workspace = true
+name = "rust-bazel"
+readme.workspace = true
+repository.workspace = true
 rust-version.workspace = true
+version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
-bench =  false
+bench = false
 name = "rust-bazel"
 path = "src/main.rs"
 
 [dependencies]
-calculator = { path = "../calculator" }
+calculator = { path = "../calculator", version = "0.1.0"}

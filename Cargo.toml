@@ -7,6 +7,11 @@ members = [
 
 [workspace.package]
 authors = ["Michael Gardner <mjgardner@abitofhelp.com>"]
+description = "This is a simple Rust application and library that can be built using Bazel as well as Cargo.  Please visit the repository to view the complete solution: client, server, and lib."
 edition = "2021"
-license = "MIT OR Apache-2.0"
+homepage = "https://www.abitofhelp.com"
+keywords = ["rust", "bazel"]
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/abitofhelp/rust-bazel.git"
 rust-version = "1.74"
