@@ -1,5 +1,5 @@
 [package]
-name = "rustbazel"
+name = "rust-bazel"
 version = "0.1.0"
 authors.workspace = true
 edition.workspace = true
@@ -10,7 +10,7 @@ rust-version.workspace = true
 
 [[bin]]
 bench =  false
-name = "rustbazel"
+name = "rust-bazel"
 path = "src/main.rs"
 
 [dependencies]

@@ -1,5 +1,5 @@
 {
-  "checksum": "27b19f4204a4a4eb9415bddd5f780f7486f4afd444d586ba8253c1aca4579ba8",
+  "checksum": "944c41f3932934e96503f32066e996733f6bd52bd914cb69ed9ac42284d9324a",
   "crates": {
     "calculator 0.1.0": {
       "name": "calculator",
@@ -26,8 +26,8 @@
       },
       "license": "MIT OR Apache-2.0"
     },
-    "rustbazel 0.1.0": {
-      "name": "rustbazel",
+    "rust-bazel 0.1.0": {
+      "name": "rust-bazel",
       "version": "0.1.0",
       "repository": null,
       "targets": [],
@@ -45,7 +45,7 @@
   "binary_crates": [],
   "workspace_members": {
     "calculator 0.1.0": "crates/calculator",
-    "rustbazel 0.1.0": "crates/rustbazel"
+    "rust-bazel 0.1.0": "crates/rust-bazel"
   },
   "conditions": {}
 }

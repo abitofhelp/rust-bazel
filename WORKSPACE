@@ -29,6 +29,6 @@ crates_repository(
     manifests = [
         "//:Cargo.toml",
         "//:crates/calculator/Cargo.toml",
-        "//:crates/rustbazel/Cargo.toml",
+        "//:crates/rust-bazel/Cargo.toml",
     ],
 )

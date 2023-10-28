@@ -139,5 +139,5 @@ $RECYCLE.BIN/
 
 # EXTRA EXCLUSIONS
 .idea/
-#.bazelrc  Commented out so it can be saved in the repo for others to see.
+#.bazelrc  Commented out here so it can be saved in the repo for others to see.
 # There is no sensitive info in this file at this time.
