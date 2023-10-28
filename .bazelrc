@@ -1,0 +1,2 @@
+# This file contains sensitive information used to configure Bazel.
+# It MUST be added to the .gitignore file.

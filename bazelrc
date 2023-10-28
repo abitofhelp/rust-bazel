@@ -1,0 +1,5 @@
+# This file DOES NOT contain sensitive information used to configure Bazel.
+# Sensitive Bazel configuration must be placed into the .bazelrc file, which is not saved to the repository.
+
+# Use the nightly build as the default toolchain.
+build --@rules_rust//rust/toolchain/channel=nightly

@@ -1,0 +1,51 @@
+{
+  "checksum": "27b19f4204a4a4eb9415bddd5f780f7486f4afd444d586ba8253c1aca4579ba8",
+  "crates": {
+    "calculator 0.1.0": {
+      "name": "calculator",
+      "version": "0.1.0",
+      "repository": null,
+      "targets": [
+        {
+          "Library": {
+            "crate_name": "calculator",
+            "crate_root": "src/lib.rs",
+            "srcs": [
+              "**/*.rs"
+            ]
+          }
+        }
+      ],
+      "library_target_name": "calculator",
+      "common_attrs": {
+        "compile_data_glob": [
+          "**"
+        ],
+        "edition": "2021",
+        "version": "0.1.0"
+      },
+      "license": "MIT OR Apache-2.0"
+    },
+    "rustbazel 0.1.0": {
+      "name": "rustbazel",
+      "version": "0.1.0",
+      "repository": null,
+      "targets": [],
+      "library_target_name": null,
+      "common_attrs": {
+        "compile_data_glob": [
+          "**"
+        ],
+        "edition": "2021",
+        "version": "0.1.0"
+      },
+      "license": "MIT OR Apache-2.0"
+    }
+  },
+  "binary_crates": [],
+  "workspace_members": {
+    "calculator 0.1.0": "crates/calculator",
+    "rustbazel 0.1.0": "crates/rustbazel"
+  },
+  "conditions": {}
+}
