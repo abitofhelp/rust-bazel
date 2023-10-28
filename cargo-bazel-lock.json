@@ -1,9 +1,9 @@
 {
-  "checksum": "ad5c77edd2428de2029b2c47529bce90e630af04d18b8683ff6b55101cf27e5e",
+  "checksum": "6b13a183149915bacdd368106d00fd77bc6d89bc6b8c214f655ef23d203bd624",
   "crates": {
-    "mycalculator 0.1.0": {
+    "mycalculator 0.2.0": {
       "name": "mycalculator",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "repository": null,
       "targets": [
         {
@@ -22,13 +22,13 @@
           "**"
         ],
         "edition": "2021",
-        "version": "0.1.0"
+        "version": "0.2.0"
       },
       "license": null
     },
-    "rust-bazel 0.1.0": {
+    "rust-bazel 0.2.0": {
       "name": "rust-bazel",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "repository": null,
       "targets": [],
       "library_target_name": null,
@@ -37,15 +37,15 @@
           "**"
         ],
         "edition": "2021",
-        "version": "0.1.0"
+        "version": "0.2.0"
       },
       "license": null
     }
   },
   "binary_crates": [],
   "workspace_members": {
-    "mycalculator 0.1.0": "crates/mycalculator",
-    "rust-bazel 0.1.0": "crates/rust-bazel"
+    "mycalculator 0.2.0": "crates/mycalculator",
+    "rust-bazel 0.2.0": "crates/rust-bazel"
   },
   "conditions": {}
 }
