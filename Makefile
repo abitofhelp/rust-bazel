@@ -1,6 +1,6 @@
 PROJECT_DIR=$HOME/Git/rust/abitofhelp/rust-bazel
 
-.PHONY:baz_build_all baz_clean baz_run baz_sync_from_cargo baz_test cratelist 1.cratepub_dryrun 2.cratepub
+.PHONY:baz_build_all baz_clean baz_run baz_sync_from_cargo baz_test cratelist cratepub cratepub_dryrun
 
 baz_build_all:
 	@bazel build //...
